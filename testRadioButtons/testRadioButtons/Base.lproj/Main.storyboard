@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="testRadioButtons" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kh8-Ub-ch5" customClass="RadioButton" customModule="testRadioButtons" customModuleProvider="target">
+                                <rect key="frame" x="110" y="284" width="68" height="33"/>
+                                <color key="backgroundColor" red="0.1333333333" green="0.1333333333" blue="0.1333333333" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="18"/>
+                                <state key="normal" title="Button 1"/>
+                                <connections>
+                                    <action selector="touchUpRadioButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="qUp-l1-DUY"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1IO-Jr-peP" customClass="RadioButton" customModule="testRadioButtons" customModuleProvider="target">
+                                <rect key="frame" x="188" y="284" width="68" height="33"/>
+                                <color key="backgroundColor" red="0.1333333333" green="0.1333333333" blue="0.1333333333" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="18"/>
+                                <state key="normal" title="Button 2"/>
+                                <connections>
+                                    <action selector="touchUpRadioButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7r0-6J-tet"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pZ7-x3-5vT" customClass="RadioButton" customModule="testRadioButtons" customModuleProvider="target">
+                                <rect key="frame" x="266" y="284" width="68" height="33"/>
+                                <color key="backgroundColor" red="0.1333333333" green="0.1333333333" blue="0.1333333333" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="18"/>
+                                <state key="normal" title="Button 3"/>
+                                <connections>
+                                    <action selector="touchUpRadioButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aoR-nl-fm6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IpY-eL-Fdr" customClass="RadioButton" customModule="testRadioButtons" customModuleProvider="target">
+                                <rect key="frame" x="344" y="284" width="68" height="33"/>
+                                <color key="backgroundColor" red="0.1333333333" green="0.1333333333" blue="0.1333333333" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="18"/>
+                                <state key="normal" title="Button 4"/>
+                                <connections>
+                                    <action selector="touchUpRadioButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="cAe-4S-5cj"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mbR-uX-2qK" customClass="RadioButton" customModule="testRadioButtons" customModuleProvider="target">
+                                <rect key="frame" x="422" y="284" width="68" height="33"/>
+                                <color key="backgroundColor" red="0.1333333333" green="0.1333333333" blue="0.1333333333" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" name="Helvetica" family="Helvetica" pointSize="18"/>
+                                <state key="normal" title="Button 5"/>
+                                <connections>
+                                    <action selector="touchUpRadioButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QrS-nj-fkT"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="default" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nP2-hM-kdJ">
+                                <rect key="frame" x="117" y="233" width="54" height="21"/>
+                                <color key="backgroundColor" red="0.1333333333" green="0.1333333333" blue="0.1333333333" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="highlighted" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mhU-UE-G8N">
+                                <rect key="frame" x="179" y="233" width="86" height="21"/>
+                                <color key="backgroundColor" red="0.1333333333" green="0.1333333333" blue="0.1333333333" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="focused" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EWN-uQ-28A">
+                                <rect key="frame" x="269" y="233" width="62" height="21"/>
+                                <color key="backgroundColor" red="0.1333333333" green="0.1333333333" blue="0.1333333333" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="selected" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pxk-1k-4RX">
+                                <rect key="frame" x="345" y="233" width="66" height="21"/>
+                                <color key="backgroundColor" red="0.1333333333" green="0.1333333333" blue="0.1333333333" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="disabled" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PRP-LT-Cz0">
+                                <rect key="frame" x="423" y="233" width="65" height="21"/>
+                                <color key="backgroundColor" red="0.1333333333" green="0.1333333333" blue="0.1333333333" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Js3-Th-DV1">
+                                <rect key="frame" x="277" y="347" width="46" height="30"/>
+                                <color key="backgroundColor" red="0.90196079019999997" green="0.90196079019999997" blue="0.90196079019999997" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="disabled">
+                                    <color key="titleColor" red="0.0" green="0.0" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="selected">
+                                    <color key="titleColor" red="0.0" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <state key="focused">
+                                    <color key="titleColor" red="0.50196081400000003" green="1" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tnf-cb-RwP">
+                                <rect key="frame" x="355" y="347" width="46" height="30"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="refreshBtn:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7UT-FU-yYi"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="characterWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Uvu-Ra-h2W">
+                                <rect key="frame" x="285" y="188" width="31" height="15"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="tnf-cb-RwP" firstAttribute="centerX" secondItem="IpY-eL-Fdr" secondAttribute="centerX" id="0CP-5y-7T1"/>
+                            <constraint firstItem="pZ7-x3-5vT" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="0YB-aF-6c5"/>
+                            <constraint firstItem="Uvu-Ra-h2W" firstAttribute="centerX" secondItem="pZ7-x3-5vT" secondAttribute="centerX" id="0q7-Yg-QXr"/>
+                            <constraint firstItem="pxk-1k-4RX" firstAttribute="centerY" secondItem="EWN-uQ-28A" secondAttribute="centerY" id="1LR-um-8US"/>
+                            <constraint firstItem="EWN-uQ-28A" firstAttribute="top" secondItem="Uvu-Ra-h2W" secondAttribute="bottom" constant="30" id="1wD-CL-kmO"/>
+                            <constraint firstItem="EWN-uQ-28A" firstAttribute="centerX" secondItem="pZ7-x3-5vT" secondAttribute="centerX" id="2jp-Q0-3Nt"/>
+                            <constraint firstItem="PRP-LT-Cz0" firstAttribute="centerX" secondItem="mbR-uX-2qK" secondAttribute="centerX" id="96k-m3-Jv5"/>
+                            <constraint firstItem="Js3-Th-DV1" firstAttribute="top" secondItem="pZ7-x3-5vT" secondAttribute="bottom" constant="30" id="Cjf-y7-NrU"/>
+                            <constraint firstItem="Kh8-Ub-ch5" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="I79-fr-XQN"/>
+                            <constraint firstItem="pZ7-x3-5vT" firstAttribute="top" secondItem="EWN-uQ-28A" secondAttribute="bottom" constant="30" id="JTm-Nz-qyF"/>
+                            <constraint firstItem="1IO-Jr-peP" firstAttribute="leading" secondItem="Kh8-Ub-ch5" secondAttribute="trailing" constant="10" id="KTg-l5-DYe"/>
+                            <constraint firstItem="PRP-LT-Cz0" firstAttribute="centerY" secondItem="EWN-uQ-28A" secondAttribute="centerY" id="NGM-sJ-lvz"/>
+                            <constraint firstItem="mhU-UE-G8N" firstAttribute="centerY" secondItem="EWN-uQ-28A" secondAttribute="centerY" id="ONb-tG-u0B"/>
+                            <constraint firstItem="1IO-Jr-peP" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="QWr-dm-9O0"/>
+                            <constraint firstItem="tnf-cb-RwP" firstAttribute="centerY" secondItem="Js3-Th-DV1" secondAttribute="centerY" id="RF9-Ey-bSw"/>
+                            <constraint firstItem="Js3-Th-DV1" firstAttribute="centerX" secondItem="pZ7-x3-5vT" secondAttribute="centerX" id="W36-3h-wt3"/>
+                            <constraint firstItem="pxk-1k-4RX" firstAttribute="centerX" secondItem="IpY-eL-Fdr" secondAttribute="centerX" id="YoM-dq-AFB"/>
+                            <constraint firstItem="mbR-uX-2qK" firstAttribute="leading" secondItem="IpY-eL-Fdr" secondAttribute="trailing" constant="10" id="Z0K-VO-QbX"/>
+                            <constraint firstItem="mhU-UE-G8N" firstAttribute="centerX" secondItem="1IO-Jr-peP" secondAttribute="centerX" id="aml-sj-p0h"/>
+                            <constraint firstItem="IpY-eL-Fdr" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="d9H-lb-gJG"/>
+                            <constraint firstItem="mbR-uX-2qK" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="dMa-EH-tkQ"/>
+                            <constraint firstItem="pZ7-x3-5vT" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mc6-uc-H6a"/>
+                            <constraint firstItem="pZ7-x3-5vT" firstAttribute="leading" secondItem="1IO-Jr-peP" secondAttribute="trailing" constant="10" id="qer-yC-giY"/>
+                            <constraint firstItem="nP2-hM-kdJ" firstAttribute="centerY" secondItem="EWN-uQ-28A" secondAttribute="centerY" id="qn8-W8-P4N"/>
+                            <constraint firstItem="IpY-eL-Fdr" firstAttribute="leading" secondItem="pZ7-x3-5vT" secondAttribute="trailing" constant="10" id="srP-kE-1vV"/>
+                            <constraint firstItem="nP2-hM-kdJ" firstAttribute="centerX" secondItem="Kh8-Ub-ch5" secondAttribute="centerX" id="ywi-74-m1W"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="radioButtonOne" destination="Kh8-Ub-ch5" id="94A-IJ-5O2"/>
+                        <outlet property="valueLabel" destination="Uvu-Ra-h2W" id="xU9-Qv-ek7"/>
+                        <outletCollection property="buttons" destination="Kh8-Ub-ch5" collectionClass="NSMutableArray" id="TJq-8D-8WB"/>
+                        <outletCollection property="buttons" destination="1IO-Jr-peP" collectionClass="NSMutableArray" id="04F-um-zYj"/>
+                        <outletCollection property="buttons" destination="pZ7-x3-5vT" collectionClass="NSMutableArray" id="Okq-i1-PSk"/>
+                        <outletCollection property="buttons" destination="IpY-eL-Fdr" collectionClass="NSMutableArray" id="3uk-6K-lh2"/>
+                        <outletCollection property="buttons" destination="mbR-uX-2qK" collectionClass="NSMutableArray" id="9xp-9G-acI"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+        </scene>
+    </scenes>
+</document>
